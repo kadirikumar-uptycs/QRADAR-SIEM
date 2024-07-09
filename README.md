@@ -1,6 +1,4 @@
-# QRADAR-SIEM
-
-### Uptycs Events in QRADAR SIEM
+# Threat Analysis with Uptycs using QRADAR SIEM
 
 ![Events Log](events.png "Uptycs Alerts/Detections as Events in QRADAR SIEM")
 
