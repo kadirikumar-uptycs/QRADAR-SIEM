@@ -1,0 +1,141 @@
+[
+  {
+    "name": "Extension ZIP",
+    "state": "succeeded",
+    "message": "",
+    "rules": [
+      {
+        "name": "Check extension ZIP content",
+        "state": "succeeded",
+        "message": "Successfully check ZIP contents.",
+        "filename": "extension.zip"
+      },
+      {
+        "name": "Content export XML existence",
+        "state": "succeeded",
+        "message": "Content export XML found from /sensordevicetype-20240522081931.xml."
+      },
+      {
+        "name": "Extension manifest existence",
+        "state": "succeeded",
+        "message": "Extension manifest found from /manifest.txt."
+      }
+    ]
+  },
+  {
+    "name": "Extension manifest (manifest.txt)",
+    "state": "succeeded",
+    "message": "",
+    "rules": [
+      {
+        "name": "Load extension manifest",
+        "state": "succeeded",
+        "message": "Successfully loaded extension manifest from /manifest.txt."
+      },
+      {
+        "name": "Extension version format is valid",
+        "state": "succeeded",
+        "message": "Extension version is 1.0.0."
+      },
+      {
+        "name": "Minimum QRadar version is valid",
+        "state": "succeeded",
+        "message": "Minimum QRadar version is 2021.6.0.20211220195207."
+      },
+      {
+        "name": "Extension must support English",
+        "state": "succeeded",
+        "message": "Supported language(s): en-US"
+      },
+      {
+        "name": "Extension package size is valid",
+        "state": "succeeded",
+        "message": "Extension package size is 99324"
+      },
+      {
+        "name": "Checking against other fields",
+        "state": "succeeded",
+        "message": "All required fields exist."
+      }
+    ]
+  },
+  {
+    "name": "Extension signing",
+    "state": "succeeded",
+    "message": "",
+    "rules": [
+      {
+        "name": "Signing artifacts are placed in META-INF directory",
+        "state": "succeeded",
+        "message": "Extension signing check passed(signed date: Mon, 03 Jun 2024 21:42:44 GMT, expired date: Fri, 30 May 2025 13:57:21 GMT)."
+      }
+    ]
+  },
+  {
+    "name": "Content XML",
+    "state": "warning",
+    "message": "",
+    "rules": [
+      {
+        "name": "Load content export XML",
+        "state": "succeeded",
+        "message": "Successfully loaded content export XML from /sensordevicetype-20240522081931.xml."
+      },
+      {
+        "name": "Application info is valid",
+        "state": "succeeded",
+        "message": "The extension contains 0 applicaion(s)."
+      },
+      {
+        "name": "QRadar version number is in valid format",
+        "state": "succeeded",
+        "message": "Content was exported from QRadar 2021.6.0.20211220195207."
+      },
+      {
+        "name": "Download latest custom property list from App Exchange",
+        "state": "succeeded",
+        "message": "Fetched 5161 custom properties on 2024-06-03 12:28:42."
+      },
+      {
+        "name": "Custom event property sanity check",
+        "state": "warning",
+        "message": "+ Found new custom property name **\"uptycs_detection_assethostname\"** (with id \"5743c3fc-95d3-49fa-9e2f-ff23a6e8db7a and forceparse false\"). You may install [IBM QRadar Custom Properties Dictionary](https://ibm.biz/BdfdHd) to obtain a list of common custom properties and check if you can re-use one of them for your content.\n+ Found new custom property name **\"uptycs_detection_id\"** (with id \"1f16b554-e0f6-4c29-8907-2b04af07c856 and forceparse true\"). You may install [IBM QRadar Custom Properties Dictionary](https://ibm.biz/BdfdHd) to obtain a list of common custom properties and check if you can re-use one of them for your content.\n+ Found new custom property name **\"uptycs_detection_iscontainer\"** (with id \"a7ff73ee-3394-494d-8402-c72ec34c5a0e and forceparse false\"). You may install [IBM QRadar Custom Properties Dictionary](https://ibm.biz/BdfdHd) to obtain a list of common custom properties and check if you can re-use one of them for your content.\n+ Found new custom property name **\"uptycs_detection_name\"** (with id \"e1e82934-da9a-420c-9ca0-73961baabf13 and forceparse true\"). You may install [IBM QRadar Custom Properties Dictionary](https://ibm.biz/BdfdHd) to obtain a list of common custom properties and check if you can re-use one of them for your content.\n+ Found new custom property name **\"uptycs_detection_score\"** (with id \"1cb4e01e-ef87-4eab-9d77-e79ad3fba7b0 and forceparse true\"). You may install [IBM QRadar Custom Properties Dictionary](https://ibm.biz/BdfdHd) to obtain a list of common custom properties and check if you can re-use one of them for your content.\n+ Found new custom property name **\"uptycs_detection_url\"** (with id \"a6a5b9cd-056b-4ba1-9883-62cb3e76755b and forceparse false\"). You may install [IBM QRadar Custom Properties Dictionary](https://ibm.biz/BdfdHd) to obtain a list of common custom properties and check if you can re-use one of them for your content.",
+        "dbDate": "2024-06-03T12:28:42.972Z"
+      },
+      {
+        "name": "Custom search sanity check",
+        "state": "succeeded",
+        "message": "There are 0 search(es)."
+      },
+      {
+        "name": "Custom rule sanity check",
+        "state": "succeeded",
+        "message": "There are 0 custom rule(s)."
+      }
+    ]
+  },
+  {
+    "name": "Extension and Application cross check",
+    "state": "succeeded",
+    "message": "",
+    "rules": [
+      {
+        "name": "Content can be installed on provided minimum supported QRadar version",
+        "state": "succeeded",
+        "message": "The content XML was exported from QRadar 7.5.0 Fix Pack 0(2021.6.0.20211220195207) which can be installed on minimum supported QRadar version 7.5.0 Fix Pack 0(2021.6.0.20211220195207)."
+      }
+    ]
+  },
+  {
+    "name": "Security check for Python codes",
+    "state": "succeeded",
+    "message": "",
+    "rules": [
+      {
+        "name": "Check security issues in Python codes",
+        "state": "succeeded",
+        "message": "Completed scan of Python codes with bandit. Lines scanned: 0.\nBandit report is ready and can be [Downloaded Here](./api/report/securityscan)."
+      }
+    ]
+  }
+]

@@ -1,0 +1,9 @@
+{
+  "event_id": "uptycs_detection",
+  "uptycs_detection_id": "4b1651e0-682b-4ce1-a8ea-e1f98e3a5638",
+  "uptycs_detection_name": "test_mac(docs.google.com)",
+  "uptycs_detection_score": "0.7",
+  "uptycs_detection_assethostname": "Uptycs-Mac.local",
+  "uptycs_detection_iscontainer": "false",
+  "uptycs_detection_url": "https://quality2.uptycs.io/ui/detections/4b1651e0-682b-4ce1-a8ea-e1f98e3a5638"
+}
